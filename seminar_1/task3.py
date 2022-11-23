@@ -8,18 +8,14 @@
 
 x=int(input('x='))
 y=int(input('y='))
-
-if x>0 and y>0:
-    print(1)
-elif x<0 and y>0:
-    print(2)
-elif x<0 and y<0:
-    print(3)
-elif x>0 and y<0:
-    print(4)
-elif x==0 and y!=0:
-    print ('точка на оси Y')
-elif x!=0 and y==0:
-    print ('точка на оси Y')
+if x==0 or y==0:
+    print('Error')
 else:
-    print ('точка в начале координатной плоскости')
+    if x>0 and y>0:
+        print(1)
+    elif x<0 and y>0:
+        print(2)
+    elif x<0 and y<0:
+        print(3)
+    else:
+        print(4)
