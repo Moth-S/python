@@ -5,7 +5,7 @@ from random import randint
 
 
 def mixing_elements(lst):
-    lst2=lst
+    lst2=lst[:]
     lst1 = []
 
     while len(lst2) > 0:
