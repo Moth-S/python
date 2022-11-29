@@ -14,9 +14,8 @@ for i in range(6):
     lst.append(randint(-10, 10))
 
 
-for j in range(len(lst)):
-    if j % 2:
-        summa += lst[j]
+for j in range(1,len(lst),2):
+    summa += lst[j]
 
 
 print(lst, f"\n sum of elements in odd positions: {summa}")
