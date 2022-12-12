@@ -14,7 +14,7 @@
 
 from random import randint
 
-n=106
+n=2021
 first = randint(1,10)
 print(first)
 
